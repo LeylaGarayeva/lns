@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !/(admin|css|fonts|ico|include|js|cms)/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{QUERY_STRING} !page
+RewriteCond %{QUERY_STRING} !page
+RewriteRule ^(az|en|ru)/(xeberler)/([^/]+)/([^/]+)/ index.php?lng=$1&page=$2&val=$3&sss=$4 [L]
+#RewriteRule ^(az|en|ru)/([^/]+)/dizayn-([0-9]+)\.Bakujaluzi?$ index.php?lng=$1&page=$2&u_id=$3 [L]
+#RewriteRule ^(az|en|ru)/(.*)/([^/]+)/dizayn-([0-9]+)\.Bakujaluzi?$ index.php?lng=$1&page=$3&u_id=$4 [L]
+RewriteRule ^(az|en|ru)/(pages|menu|elaqe|qeydiyyat|xeber|xeberler|about|news|support_email|shop|shop_category|single|basket|order)/([^/]+)/?$ index.php?lng=$1&page=$2&val=$3 [L]
+RewriteRule ^(az|en|ru)/(pages|menu|elaqe|qeydiyyat|xeber|xeberler|about|news|support_email|shop|shop_category|single|basket|order)/(.*)/([^/]+)/ index.php?lng=$1&page=$2&val=$4
+RewriteRule ^(az|en|ru)/(pages|catalog|search|elaqe|qeydiyyat|menu|xeber|xeberler|about|news|support_email|shop|shop_category|single|basket|order)/ index.php?lng=$1&page=$2

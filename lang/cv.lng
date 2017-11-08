@@ -1,0 +1,29 @@
+<?PHP
+
+$cv_lng=ARRAY(
+
+'start'=>								ARRAY('',	'Gəlin başlayaq',		'Lets get started',		'Lets get started'				),
+'select'=>								ARRAY('',	'Özünüz üçün gözəl bir dizayn seçin',	
+													'Select one of the templates for you',
+													'Select one of the templates for you'											),
+'davam'=>								ARRAY('',	'Davam et',				'Continue',				'Continue'						),
+'reshere'=>								ARRAY('',	'CV-niz var',			'resume here',			'resume here'					),
+'createcv'=>							ARRAY('',	'Yeni CV hazırla',		'Create new resume',	'Create new resume'				),
+'youhavenot'=>							ARRAY('',	'Siz hələ öz CV-nizi hazırlamamısınız.',			
+													'You haven\'t created a resume yet.',		
+													'You haven\'t created a resume yet.'											),
+'goehead'=>								ARRAY('',	'Gəlin başlayaq. ilk CV-nizi hazırlayın. Bu sadəcə bir neçə dəqiqənizi alacaq',			
+													'Go ahead, create your first resume. It will just take a few minutes.',		
+													'Go ahead, create your first resume. It will just take a few minutes.'			),
+'standout'=>							ARRAY('',	'Digər iş axtaranlardan 1 addım öndə olun',			
+													'Stand out from rest of the job seekers.',		
+													'Stand out from rest of the job seekers.'										),
+'premiumplan'=>							ARRAY('',	'Bizim premium hesabla rəqiblərinizi qabaqlayın',			
+													'Get yourself ahead with our <strong>Premium Plan</strong>.',		
+													'Get yourself ahead with our <strong>Premium Plan</strong>.'					),
+'goehead'=>								ARRAY('',	'Gəlin başlayaq. ilk CV-nizi hazırlayın. Bu sadəcə bir neçə dəqiqənizi alacaq',			
+													'Go ahead, create your first resume. It will just take a few minutes.',		
+													'Go ahead, create your first resume. It will just take a few minutes.'			)
+
+);
+?>

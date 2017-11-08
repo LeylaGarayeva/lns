@@ -1,0 +1,12 @@
+<?PHP
+
+$header_lng=ARRAY(
+'dashboard'=>					ARRAY('',	'idarə paneli',			'Dashboard',			'Dashboard'				),
+'sitename'=>					ARRAY('',	'MYCV',					'MYCV',					'MYCV'					),
+'contactus'=>					ARRAY('',	'Bizimlə Əlaqə',		'Contact us',			'Contact us'			),
+'sitetitle'=>					ARRAY('',	'MYCV - Gözəl CV nümunələri - Online CV hazırla',
+											'Resumonk - Beautiful Resume Templates - Online CV Builder',
+											'Resumonk - Beautiful Resume Templates - Online CV Builder'				),
+'exit'=>						ARRAY('',	'Çıxış',				'exit',					'exit'					)
+);
+?>

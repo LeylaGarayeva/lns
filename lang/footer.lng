@@ -1,0 +1,13 @@
+<?PHP
+
+$footer_lng=ARRAY(
+
+'about'=>							ARRAY('',	'Haqqımızda',			'About',		'About'					),
+'blog'=>							ARRAY('',	'MYCV blogu',			'MYCV blog',		'MYCV blog'			),
+'resource'=>							ARRAY('',	'Faydalı',			'Recourses',		'Recourses'			),
+'copy'=>							ARRAY('',	'&copy; 2017 Abhayam Software Solutions Pvt. Ltd.',	
+												'&copy; 2017 Abhayam Software Solutions Pvt. Ltd.',
+												'&copy; 2017 Abhayam Software Solutions Pvt. Ltd.'				)
+
+);
+?>
